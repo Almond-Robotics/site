@@ -1,0 +1,178 @@
+.slogan {
+  border-bottom: 20px solid rgba(255, 201, 212, 0.5);
+  min-width: 220px;
+  width: 15%;
+  line-height: 20px;
+}
+
+a {
+  color: #ffc9d4;
+}
+
+a:hover {
+  color: #af8b92;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+mark {
+  background-color: rgba(255, 201, 212, 0.5);
+}
+
+.team {
+  margin-top: 1em;
+}
+
+navbar-item:hover {
+  color: #ffc9d4;
+}
+
+#boxes .columns {
+  margin: 0;
+}
+
+#boxes .box {
+  height: 21rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: relative;
+  overflow: hidden;
+  background: #ffc9d4;
+}
+
+#boxes .box .title {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 7.2rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.375);
+  font-size: 2.8rem;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 11;
+}
+
+#boxes .box#about {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/images/team.JPG") center;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/images/team.JPG") center;
+  background-size: cover;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box#robots {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/images/robot.jpeg") center;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/images/robot.jpeg") center;
+  background-size: cover;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box#outreach {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/images/outreach.jpg") center;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/images/outreach.jpg") center;
+  background-size: cover;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box#sponsors {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/images/sponsors.png") center;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/images/sponsors.png") center;
+  background-size: cover;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box#hello-robot {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/hello-robot/penguin.png") center;
+  background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/hello-robot/penguin.png") center;
+  background-size: auto;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box#contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(204, 19, 19, 0)), color-stop(75%, rgba(0, 0, 0, 0.5))), url("/assets/images/contact.JPG") 50% 20%;
+  background: linear-gradient(rgba(204, 19, 19, 0) 0%, rgba(0, 0, 0, 0.5) 75%), url("/assets/images/contact.JPG") 50% 20%;
+  background-size: cover;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#boxes .box:hover {
+  z-index: 100;
+}
+
+#boxes .box:hover .title {
+  opacity: 0.3;
+}
+
+.bottom-margin {
+  margin-bottom: 1em;
+}
+
+.member {
+  position: relative;
+}
+
+.member p {
+  margin-top: -20px;
+}
+
+.member a.email {
+  background-color: #ffc9d4;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 4.5;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.member a.email:hover {
+  background-color: #d6a1ab;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.mentors {
+  margin-top: 2em;
+}
+
+.title-margin {
+  padding-bottom: 2vw;
+}
+
+.logos {
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  margin: 2rem auto auto;
+}
