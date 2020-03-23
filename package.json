@@ -1,22 +1,19 @@
 {
-    "name": "almond-bulma",
-    "version": "1.0.0",
-    "description": "",
-    "main": "functions/app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "netlify-lambda build express",
-        "start": "nodemon app.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "bulma": "^0.8.0",
-        "express": "^4.17.1",
-        "netlify-lambda": "^1.6.3",
-        "nodemon": "^2.0.2",
-        "prettier": "^1.19.1",
-        "serverless-http": "^2.3.2",
-        "typed.js": "^2.0.11"
-    }
+  "name": "almond-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "express": "^4.17.1",
+    "prettier": "^1.19.1",
+    "typed.js": "^2.0.11",
+    "netlify-lambda": "1.6.3"
+  }
 }
